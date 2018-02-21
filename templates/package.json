@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-react-css-modules": "^3.3.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "jsdom": "^11.4.0",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1"
+  },
+  "name": "{{projectSlug}}",
+  "version": "1.0.0",
+  "description": "A new react + redux app",
+  "main": "lib/main.js",
+  "private": true,
+  "scripts": {
+    "dev": "yarn webpack --watch --progress"
+  }
+}
