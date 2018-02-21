@@ -1,5 +1,4 @@
-# {{projectName}}
----
+# {{projectSlug}}
 
 To start your project the following steps will help
 
@@ -16,11 +15,11 @@ brew install nginx
 and then install your nginx template
 ```
 location /{{projectSlug}}.html {
-    alias {{projectBaseDir}}/{{projectSlug}}/index.html;
+    alias {{{projectBaseDir}}}/{{{projectSlug}}}/index.html;
 }
 
-location /{{projectSlug}}-ui/dist {
-    alias {{projectBaseDir}}/{{projectSlug}}/dist;
+location /{{{projectSlug}}}-ui/dist {
+    alias {{{projectBaseDir}}}/{{{projectSlug}}}/dist;
     autoindex on;
 }
 ```
