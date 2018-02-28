@@ -18,7 +18,7 @@ location /{{projectSlug}}.html {
     alias {{{projectBaseDir}}}/{{{projectSlug}}}/index.html;
 }
 
-location /{{{projectSlug}}}-ui/dist {
+location /{{{projectSlug}}}/dist {
     alias {{{projectBaseDir}}}/{{{projectSlug}}}/dist;
     autoindex on;
 }
